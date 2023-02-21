@@ -12,16 +12,25 @@ const DateTimePicker = (props) => {
             <DateTimePickerMUI
                 disablePast={true}
                 ampm={false}
-                renderInput={(props) => <TextField {...props} />}
+                renderInput={(props) =>
+                    <TextField fullWidth {...props}
+                               InputLabelProps={{style: {color: '#FFF'}}}
+                               sx={{
+                                 svg: { color: '#FFF' },
+                                 input: { color: '#FFF' },
+                                 label: { color: '#FFF' },
+                                 fieldset: {borderColor: '#FFF'}
+                               }}
+                    />
+                }
                 label={props.label ?? ''}
                 value={value}
                 onChange={(newValue) => {
                     setValue(newValue);
                     if(props.callback) {
-                      props.callback(DateTimeHelper.formatDate(newValue))
+                      props.callback(newValue)
                     }
                 }}
-
             />
         </LocalizationProvider>
     );
