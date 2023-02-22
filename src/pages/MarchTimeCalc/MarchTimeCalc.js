@@ -78,7 +78,7 @@ const MarchTimeCalc = () => {
                 <TextField callback={(e => setAttackerY(e.target.value))} value={attackerY} label={"Współrzędne Y wioski atakującego"} />
               </GridItem>
               <GridItem xs={12} md={4}>
-                <DateTimePicker defaultDate={finishDate} callback={finishAttackCallback} label={'Godzina dojścia ataku ataku'}/>
+                <DateTimePicker defaultDate={finishDate} callback={finishAttackCallback} label={'Godzina dojścia ataku'}/>
               </GridItem>
               <GridItem xs={12} md={4}>
                 <TextField callback={(e => setDefenderX(e.target.value))} value={defenderX} label={"Współrzędne X wioski broniącego"} />
