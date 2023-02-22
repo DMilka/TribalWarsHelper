@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TribalWarsHelper/static/css/main.e6c13ad2.css",
-    "main.js": "/TribalWarsHelper/static/js/main.424fb6ae.js",
+    "main.js": "/TribalWarsHelper/static/js/main.e234a85c.js",
     "static/js/787.6ae7aae2.chunk.js": "/TribalWarsHelper/static/js/787.6ae7aae2.chunk.js",
     "index.html": "/TribalWarsHelper/index.html",
     "main.e6c13ad2.css.map": "/TribalWarsHelper/static/css/main.e6c13ad2.css.map",
-    "main.424fb6ae.js.map": "/TribalWarsHelper/static/js/main.424fb6ae.js.map",
+    "main.e234a85c.js.map": "/TribalWarsHelper/static/js/main.e234a85c.js.map",
     "787.6ae7aae2.chunk.js.map": "/TribalWarsHelper/static/js/787.6ae7aae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.424fb6ae.js"
+    "static/js/main.e234a85c.js"
   ]
 }
